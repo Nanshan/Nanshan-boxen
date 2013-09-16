@@ -91,7 +91,7 @@ node default {
     target => $boxen::config::repodir
   }
 
-  include java
+#  include java
   include iterm2::stable
 
   include vagrant
